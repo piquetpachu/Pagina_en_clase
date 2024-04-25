@@ -1,0 +1,126 @@
+*{ 
+    margin: 0 auto;
+}
+body{
+    background-color: peru;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(5, 5, 5);
+    font-size: 1.2rem;
+    line-height: 1.4em;
+    padding: 0;
+    border: 0;
+}
+.menu-icon{
+    display: none;
+}
+h1{
+    font-size: 2rem;
+    line-height: 1.3em;
+}
+p{
+    margin-bottom: 1.6em;
+}
+.container{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+.header{
+    background: rgb(68, 122, 68);
+    color: aliceblue;
+    padding: 15px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    
+}
+.header a {
+    color: aliceblue;
+    text-decoration: none;
+}
+.logo{
+    position: relative;
+    margin: 0;
+    letter-spacing: 16px;
+    font-size: 1.7em;
+}
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navegador ul{
+    margin: 0 ;
+    padding: 0;
+    list-style: none;
+}
+.navegador ul li{
+    display: inline-block;
+    margin: 0;
+    
+}
+.navegador ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+}
+.navegador ul li a:hover {
+    background: gray;
+}
+
+.footer{
+    background-color:rgb(68, 122, 68);
+    padding: 4rem 0;
+    text-align: center;
+    margin-top: 6rem;
+    color: aliceblue;
+}
+.main{
+    padding-top: 6rem;
+}
+
+@media only screen and (max-width:767px){
+
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+        padding: 0.5rem 1rem;
+        justify-content: end;
+        margin: 0;
+    }
+
+    .navegador{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .navegador ul{
+        
+        display: none;
+    
+    }
+    .navegador ul.show{
+        display: block;
+    }
+
+    .navegador ul li{
+        display: block;
+    }
+    .navegador ul li a {
+        display: block;
+        padding: 0.5rem 0;
+        transition: all 0.4s linear;
+    }
+    .navegador ul li a:hover {
+        background: gray;
+    }
+    .ocultar{
+        display: none;
+    }
+    .ver{
+        display: block;
+    }
+}
