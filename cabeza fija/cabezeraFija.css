@@ -12,6 +12,7 @@ body{
 }
 .menu-icon{
     display: none;
+    font-size: 2em;
 }
 h1{
     font-size: 2rem;
@@ -120,7 +121,11 @@ p{
     .ocultar{
         display: none;
     }
-    .ver{
+    .show {
         display: block;
     }
+    
+
+    
+    
 }

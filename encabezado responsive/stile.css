@@ -50,4 +50,18 @@ h2{
     nav{
         padding: 10px 0px;
     }
+    header{
+        display: flex;
+        height: 70px;
+        justify-content: space-between;
+        background-color: peru;
+        align-items: center;
+        padding: 50px;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        cursor: default;
+        
+    }
 }
